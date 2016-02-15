@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E47CAE3C1C721D0100A508FA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CAE3B1C721D0100A508FA /* Todo.swift */; };
 		E4A6D9F61C70D0CC00612A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6D9F51C70D0CC00612A1E /* AppDelegate.swift */; };
 		E4A6D9F81C70D0CD00612A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6D9F71C70D0CD00612A1E /* ViewController.swift */; };
 		E4A6D9FB1C70D0CD00612A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A6D9F91C70D0CD00612A1E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E47CAE3B1C721D0100A508FA /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		E4A6D9F21C70D0CC00612A1E /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A6D9F51C70D0CC00612A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A6D9F71C70D0CD00612A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				E4A6D9F51C70D0CC00612A1E /* AppDelegate.swift */,
 				E4A6D9F71C70D0CD00612A1E /* ViewController.swift */,
+				E47CAE3B1C721D0100A508FA /* Todo.swift */,
 				E4A6D9F91C70D0CD00612A1E /* Main.storyboard */,
 				E4A6D9FC1C70D0CD00612A1E /* Assets.xcassets */,
 				E4A6D9FE1C70D0CD00612A1E /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A6D9F81C70D0CD00612A1E /* ViewController.swift in Sources */,
+				E47CAE3C1C721D0100A508FA /* Todo.swift in Sources */,
 				E4A6D9F61C70D0CC00612A1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				E4A6DA061C70D0CD00612A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
