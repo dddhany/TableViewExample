@@ -38,6 +38,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pAb-XD-DGU" kind="show" id="CQK-A1-DJs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -118,6 +121,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BwZ-OG-6L5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1501" y="333"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kGn-JG-ZFk">
+            <objects>
+                <viewController id="pAb-XD-DGU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F7E-8Q-Wu4"/>
+                        <viewControllerLayoutGuide type="bottom" id="g0h-IC-06W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mxc-7j-1l4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X9p-n7-avr">
+                                <rect key="frame" x="259" y="125" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todo details..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCZ-HP-iKg">
+                                <rect key="frame" x="16" y="72" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="X9p-n7-avr" secondAttribute="trailing" constant="-4" id="Cll-pA-48L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pCZ-HP-iKg" secondAttribute="trailing" id="JXe-Jb-Twi"/>
+                            <constraint firstItem="X9p-n7-avr" firstAttribute="top" secondItem="pCZ-HP-iKg" secondAttribute="bottom" constant="32" id="PlV-Og-MME"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="pCZ-HP-iKg" secondAttribute="leading" id="QMq-8u-6Zi"/>
+                            <constraint firstItem="pCZ-HP-iKg" firstAttribute="top" secondItem="F7E-8Q-Wu4" secondAttribute="bottom" constant="8" id="ZMa-J0-C70"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6d-aP-iYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1501" y="905"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ldo-gv-zbW">
